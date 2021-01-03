@@ -5,17 +5,6 @@ def find_even_values(src)
 
 
 
-  row_index = 0
-  while row_index < src.count do
-    element_index = 0
-    while element_index < src[row_index].count do
-      # inside this loop, src[row_index][element_index] will access the current element
-      p 
-      element_index += 1
-    end
-    row_index += 1
-  end
-end
 
 
 end
@@ -23,21 +12,3 @@ end
 
 
 
-
-
-
-spice_rack = [
-  ["Posh", "Scary", "Sporty"],
-  ["Paprika", "Fajita Mix", "Coriander"],
-  ["Parsley", "Sage", "Rosemary"]
-]
- 
-row_index = 0
-while row_index < spice_rack.count do
-  element_index = 0
-  while element_index < spice_rack[row_index].count do
-    p spice_rack[row_index][element_index]
-    element_index += 1
-  end
-  row_index += 1
-end #=> nil
